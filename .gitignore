@@ -4,6 +4,9 @@ node_modules/
 # Tailwind input file (usually raw or utility-only)
 css/input.css
 
+# Video
+video.mp4
+
 # OS-specific files
 .DS_Store
 Thumbs.db
