@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth scroll-pt-[72px]">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neurolytix</title>
+  <!-- Sora Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="font-main text-secondary">
+  <!-- Start Navbar -->
+  <nav class="dark:bg-secondary dark:text-white bg-white shadow-sm py-4 px-4 lg:px-8 fixed w-full top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between">
+      <h1 class="text-2xl font-bold flex items-center"><i data-lucide="brain-circuit" class="text-primary mr-1"></i>Neurolytix</h1>
+
+      <div class="flex items-center gap-3">
+        <ul id="menu" class="absolute left-0 top-[64px] h-0 w-full overflow-hidden bg-secondary text-white flex items-center flex-col justify-center gap-6 text-3xl uppercase font-bold transition-all duration-600 md:top-0 md:w-auto md:h-auto md:bg-transparent md:text-text md:text-base md:justify-end md:flex-row md:relative md:capitalize md:font-normal dark:text-white">
+          <li><a href="#features" class="hover:underline">Features</a></li>
+          <li><a href="#testimonials" class="hover:underline">Testimonials</a></li>
+          <li><a href="#faq" class="hover:underline">FAQ</a></li>
+          <li><a href="#cta" class="md:hover:bg-secondary-hover md:bg-secondary md:text-white py-2 px-4 rounded transition-colors duration-300 cursor-pointer bg-white text-secondary hover:bg-grey inline-block dark:bg-primary dark:hover:bg-primary-hover">Join Waitlist</a></li>
+        </ul>
+
+        <button id="menuBtn" class="md:hidden cursor-pointer  md:order-1 order-2 ">
+          <i data-lucide="rectangle-ellipsis" class="w-8 h-8"></i>
+        </button>
+
+        <div class="mode-toggle flex items-center gap-3 bg-[#F0FAFF] dark:bg-section-gray-dark p-1 rounded-full transition duration-300 md:order-2 order-1">
+          <div id="light-mode" class="bg-primary text-white dark:bg-transparent p-1 rounded-full cursor-pointer transition duration-300">
+            <i class="w-6 h-6" data-lucide="sun"></i>
+          </div>
+          <div id="dark-mode" class="dark:bg-primary p-1 rounded-full cursor-pointer transition duration-300">
+            <i class="w-6 h-6" data-lucide="moon"></i>
+          </div>
+        </div>
+        </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Start Hero Section -->
+  <section class="pt-[72px] odd:bg-grey dark:even:bg-secondary">
+    <div class="container mx-auto p-5">
+      <div class="grid lg:grid-cols-2 gap-2 items-center">
+        <div class="lg:text-left text-center dark:text-white">
+          <h2 class="text-5xl font-heading font-bold mb-7">Supercharge Your Productivity with <span class="text-primary">AI</span></h2>
+          <p class="mb-7">Neurolytix turns your scattered thoughts, notes, and tasks into an organized action plan — instantly, using GPT-powered intelligence.</p>
+          <div class="flex lg:justify-start justify-center gap-3 mb-7">
+            <button class="btn hover:bg-secondary-hover bg-secondary dark:bg-primary dark:hover:bg-primary-hover">Join Waitlist</button>
+            <button class="btn hover:bg-primary-hover bg-primary dark:bg-white dark:text-secondary! dark:hover:bg-section-bg flex items-center">Watch Demo <i data-lucide="play" class="ms-2 w-5 h-5"></i></button>
+          </div>
+          <p class="text-sm text-grey">Built with GPT-4 · Join 1,200+ early adopters</p>
+        </div>
+        <div class="photo">
+          <img src="img/hero-section.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+
+  <!-- Start How it Works -->
+  <section class="how-work py-[100px] odd:bg-section-bg dark:odd:bg-section-gray-dark dark:text-white dark:even:bg-secondary">
+    <div class="container mx-auto p-5">
+      <h3 class="flex items-center justify-center font-heading font-bold text-4xl underline underline-offset-5 mb-[50px]"><i data-lucide="brain-circuit" class="text-primary h-9 w-9 mr-1"></i>How It Works</h3>
+
+      <div class="grid md:grid-cols-3 gap-5">
+        <div class="relative bg-white dark:bg-secondary rounded p-8">
+          <span class="absolute top-0 left-0 text-8xl font-black text-gray-100 dark:text-section-gray-dark">01</span>
+          <div class="relative flex flex-col items-center gap-4">
+            <i data-lucide="notebook-pen" class="text-primary w-8 h-8"></i>
+            <h4 class="text-xl font-bold">Input Your Tasks</h4>
+            <p class="text-center">Paste your notes, upload voice memos, or type your thoughts — anything that’s in your head.</p>
+          </div>
+        </div>
+        <div class="relative bg-white dark:bg-secondary rounded p-8">
+          <span class="absolute top-0 left-0 text-8xl font-black text-gray-100 dark:text-section-gray-dark">02</span>
+          <div class="relative flex flex-col items-center gap-4">
+            <i data-lucide="calendar-clock" class="text-primary w-8 h-8"></i>
+            <h4 class="text-xl font-bold">AI Organizes Your Day</h4>
+            <p class="text-center">Neurolytix uses GPT-powered logic to categorize, prioritize, and structure your day—automatically..</p>
+          </div>
+        </div>
+        <div class="relative bg-white dark:bg-secondary rounded p-8">
+          <span class="absolute top-0 left-0 text-8xl font-black text-gray-100 dark:text-section-gray-dark">03</span>
+          <div class="relative flex flex-col items-center gap-4">
+            <i data-lucide="target" class="text-primary w-8 h-8"></i>
+            <h4 class="text-xl font-bold">Stay Focused</h4>
+            <p class="text-center">View your personalized plan in a clean dashboard. Mark tasks, track goals, and stay in flow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End How it Works -->
+
+  <!-- Start Features -->
+  <section id="features" class="py-[100px] odd:bg-section-bg dark:odd:bg-section-gray-dark dark:text-white dark:even:bg-secondary">
+    <div class="container mx-auto p-5">
+      <div class="heading flex flex-col items-center mb-[50px]">
+        <h3 class="flex items-center justify-center font-heading font-bold text-4xl underline underline-offset-4">
+          <i data-lucide="brain-circuit" class="text-primary h-9 w-9 mr-1"></i>
+          Key Features
+        </h3>
+      </div>
+
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-4">
+        <div class="group hover:bg-primary hover:text-white transition duration-300 bg-[#F0FAFF] text-secondary dark:bg-section-gray-dark dark:text-white py-5 px-3 rounded flex flex-col items-center gap-3">
+          <div class="bg-white dark:bg-secondary dark:group-hover:bg-primary  p-3 rounded-full transition duration-300">
+            <i class="text-primary dark:group-hover:text-white w-7 h-7 transition duration-300" data-lucide="layout-panel-top"></i>
+          </div>
+          <h4 class="text-xl text-center font-bold font-heading">Smart Task Clustering</h4>
+          <p class="text-center text-sm">Neurolytix groups similar tasks and topics using GPT logic, so you never lose context or switch focus unnecessarily.</p>
+        </div>
+
+        <div class="group hover:bg-primary hover:text-white transition duration-300 bg-[#F0FAFF] text-secondary dark:bg-section-gray-dark dark:text-white py-5 px-3 rounded flex flex-col items-center gap-3">
+          <div class="bg-white dark:bg-secondary dark:group-hover:bg-primary  p-3 rounded-full transition duration-300">
+            <i class="text-primary dark:group-hover:text-white w-7 h-7 transition duration-300" data-lucide="calendar-check"></i>
+          </div>
+            <h4 class="text-xl text-center font-bold font-heading">Real-Time Daily Planner</h4>
+          <p class="text-center text-sm">Based on your deadlines and energy levels, Neurolytix builds a dynamic plan that updates throughout the day.</p>
+        </div>
+
+        <div class="group hover:bg-primary hover:text-white transition duration-300 bg-[#F0FAFF] text-secondary dark:bg-section-gray-dark dark:text-white py-5 px-3 rounded flex flex-col items-center gap-3">
+          <div class="bg-white dark:bg-secondary dark:group-hover:bg-primary  p-3 rounded-full transition duration-300">
+            <i class="text-primary dark:group-hover:text-white w-7 h-7 transition duration-300" data-lucide="mic"></i>
+          </div>
+          <h4 class="text-xl text-center font-bold font-heading">Voice-to-Action</h4>
+          <p class="text-center text-sm">Talk instead of type. Record a voice note, and Neurolytix turns it into an actionable checklist.</p>
+        </div>
+
+        <div class="group hover:bg-primary hover:text-white transition duration-300 bg-[#F0FAFF] text-secondary dark:bg-section-gray-dark dark:text-white py-5 px-3 rounded flex flex-col items-center gap-3">
+          <div class="bg-white dark:bg-secondary dark:group-hover:bg-primary  p-3 rounded-full transition duration-300">
+            <i class="text-primary dark:group-hover:text-white w-7 h-7 transition duration-300" data-lucide="lock-keyhole"></i>
+          </div>
+          <h4 class="text-xl text-center font-bold font-heading">Built for Privacy</h4>
+          <p class="text-center text-sm">Your data stays on-device. Neurolytix never stores or shares your inputs—your thoughts are yours only.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Features -->
+
+  <!-- Start CTA -->
+  <section id="cta" class="relative bg-[url(/img/cta.jpg)] bg-cover bg-center py-20 px-5">
+    <div class="absolute inset-0 bg-black/70"></div>
+    <div class="relative bg-white dark:bg-secondary dark:text-white rounded-2xl sm:w-3/4 w-full  mx-auto p-8">
+      <div class="grid grid-cols-12 gap-3 items-start">
+        <div class="md:col-span-7 col-span-12">
+          <h4 class="text-3xl font-bold font-heading mb-2">Your <span class="text-primary">AI</span> Productivity Partner Is Almost Here.</h4>
+          <p class="text-secondary dark:text-white">Join hundreds of early adopters getting exclusive access to smarter workflows.</p>
+        </div>
+        <form class="md:col-span-5 col-span-12">
+          <input type="text" id="email" class="bg-gray-50 dark:bg-section-gray-dark dark:text-white dark:border-section-gray-dark focus:outline-none border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary w-full p-2.5" placeholder="email address" required />
+          <button class="btn hover:bg-secondary-hover bg-secondary dark:bg-primary dark:hover:bg-primary-hover my-3">Join Waitlist</button>
+          <p class="text-sm text-gray-500">No spam. We’ll email you only once Neurolytix is ready.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End CTA -->
+
+  <!-- Start Testimonials -->
+  <section id="testimonials" class="py-[100px] odd:bg-section-bg dark:odd:bg-section-gray-dark dark:text-white dark:even:bg-secondary">
+    <div class="container mx-auto p-5">
+      <h3 class="flex items-center justify-center font-heading font-bold text-4xl underline underline-offset-5 mb-[50px]"><i data-lucide="brain-circuit" class="text-primary h-9 w-9 mr-1"></i>Testimonials </h3>
+
+      <div class="grid lg:grid-cols-3 gap-3">
+        <div class="hover:bg-primary hover:text-white transition duration-300 bg-[#F0FAFF] dark:bg-section-gray-dark dark:text-white text-secondary p-5 rounded flex flex-col justify-between">
+          <div>
+            <i data-lucide="quote"></i>
+            <p class="my-3 px-3">It’s like Notion + ChatGPT + calendar all in one. My team loves it.</p>
+            <i data-lucide="quote" class="rotate-180 ms-auto"></i>
+          </div>
+          <div class="flex items-center mt-3">
+            <img class="rounded-full w-15 h-15 mr-4" src="https://i.pravatar.cc/100?img=8" alt="">
+            <div>
+              <h5 class="text-lg font-bold">Alex Carter</h5>
+              <p>Startup Advisor</p>
+            </div>
+          </div>
+        </div>
+        <div class="hover:bg-primary hover:text-white transition duration-300 bg-[#F0FAFF] dark:bg-section-gray-dark dark:text-white text-secondary p-5 rounded flex flex-col justify-between">
+          <div>
+            <i data-lucide="quote"></i>
+            <p class="my-3 px-3">I tested the early version of Neurolytix, and I’m obsessed. The clustering feature alone saves me hours every week.</p>
+            <i data-lucide="quote" class="rotate-180 ms-auto"></i>
+          </div>
+          <div class="flex items-center mt-3">
+            <img class="rounded-full w-15 h-15 mr-4" src="https://i.pravatar.cc/100?img=5" alt="">
+            <div>
+              <h5 class="text-lg font-bold">Nina Sharif</h5>
+              <p>Freelance UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="hover:bg-primary hover:text-white transition duration-300 bg-[#F0FAFF] dark:bg-section-gray-dark dark:text-white text-secondary p-5 rounded flex flex-col justify-between">
+          <div>
+            <i data-lucide="quote"></i>
+            <p class="my-3 px-3">Neurolytix is what I hoped AI planning tools would become. Clean, smart, and surprisingly intuitive.</p>
+            <i data-lucide="quote" class="rotate-180 ms-auto"></i>
+          </div>
+          <div class="flex items-center mt-3">
+            <img class="rounded-full w-15 h-15 mr-4" src="https://i.pravatar.cc/100?img=7" alt="">
+            <div>
+              <h5 class="text-lg font-bold">Derek Li</h5>
+              <p>Productivity YouTuber</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials-->
+
+  <!-- Start FAQ -->
+  <section id="faq" class="py-[100px] odd:bg-section-bg dark:odd:bg-section-gray-dark dark:text-white dark:even:bg-secondary">
+    <div class="container mx-auto p-5">
+      <h3 class="flex items-center justify-center font-heading font-bold text-4xl underline underline-offset-5 mb-[50px]"><i data-lucide="brain-circuit" class="text-primary h-9 w-9 mr-1"></i>FAQ</h3>
+
+      
+      <div class="md:w-3/4 w-full mx-auto">
+        <!-- Accordion Item -->
+        <div class="border-b-4 border-section-bg bg-white dark:border-section-gray-dark dark:bg-secondary px-5 rounded-tl-xl rounded-tr-xl group">
+          <button
+            class="flex justify-between items-center w-full py-4 text-left text-lg font-medium transition-colors duration-300 group-hover:text-primary cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <span>What is Neurolytix and how does it work?</span>
+            <svg
+              class="w-5 h-5 transform transition-transform duration-300"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-500 text-gray-600 dark:text-gray-300" style="transition-property: max-height, padding;">
+            <div class="pb-4">
+              Neurolytix is an AI-powered productivity platform that helps you plan, prioritize, and execute your daily tasks more intelligently using real-time machine learning.
+            </div>
+          </div>
+        </div>
+
+        <div class="border-b-4 border-section-bg bg-white dark:border-section-gray-dark dark:bg-secondary px-5 group">
+          <button onclick="toggleAccordion(this)" class="flex justify-between items-center w-full py-4 text-left text-lg font-medium transition-colors duration-300 group-hover:text-primary cursor-pointer"">
+            <span>Is Neurolytix free to use?</span>
+            <svg class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-500 text-gray-600 dark:text-gray-300">
+            <div class="pb-4">
+              We’re currently in private beta, so access is free for early adopters. Premium features will be available after public launch.
+            </div>
+          </div>
+        </div>
+
+        <div class="border-b-4 border-section-bg bg-white dark:border-section-gray-dark dark:bg-secondary px-5 group">
+          <button onclick="toggleAccordion(this)" class="flex justify-between items-center w-full py-4 text-left text-lg font-medium transition-colors duration-300 group-hover:text-primary cursor-pointer"">
+            <span>How is my data protected?</span>
+            <svg class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-500 text-gray-600 dark:text-gray-300">
+            <div class="pb-4">
+              Neurolytix uses encrypted cloud infrastructure and never shares your personal data. Privacy is our top priority.
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-secondary px-5 rounded-bl-xl rounded-br-xl group">
+          <button onclick="toggleAccordion(this)" class="flex justify-between items-center w-full py-4 text-left text-lg font-medium transition-colors duration-300 group-hover:text-primary cursor-pointer">
+            <span>When will Neurolytix be available publicly?</span>
+            <svg class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-500 text-gray-600  dark:text-gray-300">
+            <div class="pb-4">
+              We’re launching our public version in Q4 2025. Join the waitlist to get early access and updates.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- End FAQ-->
+
+  <!-- Start Footer -->
+  <footer class="bg-secondary text-white">
+    <div class="container mx-auto">
+      <div class="flex md:flex-row flex-col items-center justify-between border-b border-grey dark:border-section-gray-dark p-5">
+        <div class="logo">
+          <h1 class="text-2xl font-bold flex items-center"><i data-lucide="brain-circuit" class="text-primary mr-1"></i>Neurolytix</h1>
+          <p class="text-xs mt-1">Smarter productivity. Powered by AI.</p>
+        </div>
+        <p class="text-center p-5">&copy; 2025 Neurolytix. All rights reserved.</p>
+      </div>
+
+      <div class="p-5 flex md:flex-row flex-col items-center justify-center gap-2">
+        <p>Crafted with ❤️ by Mo’men Hussein.</p>
+        <ul class="flex items-center gap-2">
+          <li class="bg-white text-secondary hover:bg-[#181717] hover:text-white transition duration-300 p-2 rounded-full">
+            <a href="https://github.com/momen5406" target="_blank" title="github"><i class="" data-lucide="github"></i></a>
+          </li>
+          <li class="bg-white text-secondary hover:bg-[#0077B5] hover:text-white transition duration-300 p-2 rounded-full">
+            <a href="https://www.linkedin.com/in/momen5406" target="_blank" title="linkedin"><i data-lucide="linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="js/main.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
