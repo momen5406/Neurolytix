@@ -40,6 +40,7 @@ Neurolytix is a modern, responsive, and dark-mode-enabled landing page crafted f
 
 ## 🧩 Folder Structure
 
+```text
 Neurolytix/
 ├── index.html
 ├── css/
@@ -49,6 +50,7 @@ Neurolytix/
 │ └── cta.jpg, hero-section.svg
 ├── js/
 │ └── main.js
+```
 
 ---
 
