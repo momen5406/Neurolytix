@@ -829,6 +829,11 @@
       justify-content: flex-end;
     }
   }
+  .md\:justify-start {
+    @media (width >= 45rem) {
+      justify-content: flex-start;
+    }
+  }
   .md\:bg-secondary {
     @media (width >= 45rem) {
       background-color: var(--color-secondary);
