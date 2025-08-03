@@ -6,7 +6,7 @@ Neurolytix is a modern, responsive, and dark-mode-enabled landing page crafted f
 
 ## 🚀 Live Preview
 
-🔗 [Live Demo](https://your-live-link.com)
+🔗 [Live Demo](https://neurolytix.vercel.app/)
 
 ---
 
